@@ -21,3 +21,4 @@
 ## Примеры запроса
 * С помощью curl
  ``` curl -X POST -H "Content-Type: application/json" -d '{"questions_num": 20}' http://localhost:8000/add ```
+* Postman   указать url  http://localhost:8000/add, в качестве тела запроса передать следующий json {"questions_num": 10}
