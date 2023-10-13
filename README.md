@@ -19,5 +19,5 @@
 * GET запрос localhost:8000/show - вывод всех вопросов
 
 ## Примеры запроса
-*С помощью curl
+* С помощью curl
  ```curl -X POST -H "Content-Type: application/json" -d '{"questions_num": 20}' http://localhost:8000/add ```
