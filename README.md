@@ -2,7 +2,7 @@
 Тестовое задание
 
 ## Запуск
-Клонирование репозитория
+Клонирование репозитория1
 ```
 git clone https://github.com/Ilya2520/MyFastAPIproject2.git
 cd MyFastAPIproject2
