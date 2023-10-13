@@ -1,11 +1,11 @@
 # bewiseTZ
-Тестовое задание
+Тестовое задание. Приложение на fastApi, запуск с помощью docker-compose, использовалась SqlAalchemy, аннотация типов.
 
 ## Запуск
-Клонирование репозитория1
+Клонирование репозитория
 ```
-git clone https://github.com/Ilya2520/MyFastAPIproject2.git
-cd MyFastAPIproject2
+git clone https://github.com/Ilya2520/bewiseTZ.git
+cd bewiseTZ
 ```
 - В Pycharm открыть File -> settings -> python interpreter, добавить New enviroment
 - Перейти в коммандной строке Windows в директорию проекта и запустить команду:
@@ -16,6 +16,7 @@ cd MyFastAPIproject2
 ```
 docker-compose up --build
 ```
+Проект запущен
 
 ## Docker-compose
 Содержит два контейнера. Контейнер с приложением и с бд postgres. Контейнер базы данных содержит volume, что позволяет сохранять данные после остановки работы контейнера.
